@@ -97,7 +97,11 @@ cristian
       <source src="music.mp3" type="audio/mpeg">
       <source src="music.ogg" type="audio/ogg">
 </audio>
-       
+	
+var obj = music.mp3('audio');
+console.log(obj.volume); // 1
+obj.volume = 0.20;
+}      
 
 
 
