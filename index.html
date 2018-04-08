@@ -78,6 +78,12 @@ a, a:visited {
     opacity: 0.70;
     background-color: #000000;
 }
+
+myAudio = document.getElementById("audio1");
+
+function setHalfVolume() { 
+    myAudio.volume = 0.4;
+}
 	
 
 </style>
@@ -93,7 +99,7 @@ cristian
 	
 </div>
        <!-- Music -->
-    <audio autoplay="autoplay" loop="" id="music" audio="volume = 0.50;">
+    <audio autoplay="autoplay" loop="" id="music">
       <source src="music.mp3" type="audio/mpeg">
       <source src="music.ogg" type="audio/ogg">
        
